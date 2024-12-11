@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="a"></h1>
+    <p id="b"></p>
+    <h1>Javascript variable</h1>
+    <p id="age"></p>
+    <h1>javascript statement</h1>
+    <p id="name"></p>
+    <script>
+        //display heading
+        document.getElementById("a").innerHTML = "Introduction to JavaScript"
+        document.getElementById("b").innerHTML = " This is my first JavaScript Paragraph"
+
+        //declared variable
+        var num1 = 2
+        var num2 = 6
+        var sum = num1 + num2
+        document.getElementById("age").innerHTML = "the total sum is " + sum
+        var x, y, z
+        x = 15
+        y = 18
+        z = x * y
+        document.getElementById("name").innerHTML = "the product is " + z + "."
+    </script>
+</body>
+</html>
