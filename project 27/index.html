@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <p> Today students we will be learning about:</p>
+        <h2>JAVASCRIPT ASYNC/AWAIT</h2>
+        <p>This is an example below:</p>
+        <h1 id="result"></h1>
+        <script>
+            async function add(a, b) {
+                let response = await a + b;
+                display(response);
+            }
+            function display(some) {
+                document.getElementById("result").innerHTML = some;
+            }
+            add(10000, 2000);
+        </script>
+</body>
+</html>
